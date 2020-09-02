@@ -10,7 +10,7 @@ temp=$n
 
 while [ $n -gt 0 ]
 do
-	remainer=$(( $n % 10))
+	remainder=$(( $n % 10))
 	rev=$((($rev*10)+$remainder))
 	n=$(( $n / 10))
    
